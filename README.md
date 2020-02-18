@@ -2,6 +2,9 @@
 
 A helper image/container to add, update or remove data elements, i.e. key-value pairs, to/from a target Kubernetes (K8s) Config Map (CM). Where data is added or updated it is done referencing a distinct config map who's data elements will then be added to the target CM. This helper image was originally intended for use within the context of a Kudo Operator which deals with updating the reference CM dynamically.
 
+[GitHub](https://github.com/alexandertgtalbot/docker-kubectl-update-cm-from-cm)
+[Docker Hub](https://hub.docker.com/repository/docker/alexandertgtalbot/kubectl-update-cm-from-cm)
+
 ## Build and Publish the image
 ```
 NAMESPACE=YOUR_NS_OR_PRIVATE_REGISTRY
